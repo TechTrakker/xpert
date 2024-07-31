@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        #navbar {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .cards {
+            display: flex;
+            padding: 10px;
+            margin: 23px;
+            padding-left: 10%;
+            background-color:#000;
+        }
+
+        .card {
+            justify-content: space-between;
+            margin: 10px;
+            padding: 20px;
+             
+        }
+        .card,img{
+            height: 500px;
+            width: 500px;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 223px;
+        }
+        /* Next Section */
+        .cont3{
+        display: flex;
+         padding-top: 5%;
+    }
+    #img{
+        border: 3px solid rgba(0, 0, 0, 0.377);
+        height: 300px;
+        width: 350px;
+        margin-left: 20%;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.747);
+        
+    }
+    pre{
+        /* font-weight: bold; */
+        font-size: 25px;
+        font-weight: bold;
+         
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="navbar"> <span style="color: whitesmoke;">i</span><span
+                    style="color: red;">C</span>ode <span style="color: red;">G</span>URU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Read More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- CARDS -->
+    <h1>Categories</h1>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <img src="https://icode.guru/wp-content/themes/icodeguru/assets/images/service/s7.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h2>Share Your Skills</h2>
+                <p class="card-text">Do you want to volunteer teaching on our platform, are you looking for an
+                    opportunity to learn by teaching? We provide opportunity to all those students who have big dreams
+                    in their career.</p>
+            </div>
+        </div>
+        <!-- Card2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://icode.guru/wp-content/themes/icodeguru/assets/images/service/s6.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h2>Learn with others</h2>
+                <p class="card-text">If you want to boost your learning, you should learn skills in a cohort. We provide
+                    many cohorts so you can engage with others to enhance your skills</p>
+            </div>
+        </div>
+        <!-- card3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://icode.guru/wp-content/themes/icodeguru/assets/images/service/s5.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h2>Grow Professionally</h2>
+                <p class="card-text">"Your Network is your Networth" We provide opportunity to students to interact with
+                    international mentors from Silicon Valley.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Next Section -->
+    <div class="cont3">
+        <img src="https://icode.guru/wp-content/themes/icodeguru/assets/images/about.jpg" id="img"  alt="">
+        <p><pre>
+                This is dummy paragraph
+                This is dummy paragraph
+                This is dummy paragraph
+                This is dummy paragraph
+                This is dummy paragraph
+                This is dummy paragraph
+                This is dummy paragraph
+                This is dummy paragraph
+        </pre> </p> 
+    <!-- Scrip -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
